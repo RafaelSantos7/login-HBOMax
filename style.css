@@ -14,10 +14,6 @@ body {
     background-color: black;
 }
 
-li {
-    list-style: none;
-}
-
 #geral {
     display: flex;
     flex-direction: column;
@@ -40,6 +36,10 @@ ul {
     font-size: 22px;
     line-height: 35px;
     cursor: pointer;
+}
+
+li {
+    list-style: none;
 }
 
 /*  Main  */
@@ -77,11 +77,11 @@ label {
 input {
     width: 566px;
     height: 40px;
-    border-radius: 25px;
     background: #7F7F7F;
     padding-left: 15px;
     font-size: 14px;
     margin-bottom: 24px;
+    border-radius: 25px;
     border: 0px;
 }
 
@@ -107,11 +107,11 @@ button:hover {
 h2 {
     width: 587px;
     height: 74px;
+    margin-top: 30px;
+    text-align: center;
     font-weight: 400;
     font-size: 28px;
     line-height: 35px;
-    text-align: center;
-    margin-top: 30px;
 }
 
 .btn {
